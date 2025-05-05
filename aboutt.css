@@ -1,0 +1,151 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eaf5e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #293325;
+    line-height: 1.6;
+    background-color: #293325;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CBB17;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #293325;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #4CBB17;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: white;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    
+  }
+  
+  .hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #293325;
+  }
+  
+  .hero h2 {
+    font-size: 1.8rem;
+    margin: 30px 0 15px;
+    color: #293325;
+  }
+  
+  .hero h3 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    color: #4CBB17;
+  }
+  
+  .hero .brand {
+    color: #4CBB17;
+    font-weight: bold;
+  }
+  
+  .hero .intro {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hero p {
+    font-size: 1.05rem;
+    margin-bottom: 16px;
+    color: #444;
+  }
+  
+  /* Highlights List */
+  .highlights {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .highlights li {
+    font-size: 1.05rem;
+    margin: 10px 0;
+    padding-left: 28px;
+    position: relative;
+    color: #293325;
+  }
+  
+  .highlights li::before {
+    position: absolute;
+    left: 0;
+    color: #4CBB17;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #293325;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.95rem;
+    margin-top: 50px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 25px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero h2 {
+      font-size: 1.5rem;
+    }
+  
+    .hero h3 {
+      font-size: 1.2rem;
+    }
+  
+    .hero p,
+    .highlights li {
+      font-size: 0.95rem;
+    }
+  }
+  
